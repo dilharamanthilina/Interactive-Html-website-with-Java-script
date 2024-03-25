@@ -1,0 +1,46 @@
+
+.content-section {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Additional styles for the "Clubs" heading */
+.content-section h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+/* Additional styles for the paragraphs in the content section */
+.content-section p {
+  font-family: 'Poppins', sans-serif;
+  color: #999;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Additional styles for the link in the "For more information" section */
+.content-section h3 a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Additional styles for the button in the "For more information" section */
+.content-section h3 a button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Additional styles for the button on hover in the "For more information" section */
+.content-section h3 a button:hover {
+  background-color: #0056b3;
+}

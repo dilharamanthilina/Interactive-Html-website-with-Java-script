@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="preconnect" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;1,100&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">">
+</head>
+<body> 
+    <section class="header">
+        <nav>
+            <a href="Homepage.html"><img src="images1/R.jpeg" alt="logo"></a>
+            <div class="nav-links">
+                <h1 class="webname">Football Mania</h1>
+                <ul>
+                <li><a href="Homepage.html">Home</a></li>
+                <li><a href="">Buy Products</a></li>
+                <li><a href="">Quiz</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Site Map</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="Feedback.html">Comments</a></li>
+
+                </ul>
+            </div>
+        </nav>
+	</header>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .task-bar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .member-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+    }
+
+    .member {
+      display: flex; /* Display images in a row */
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      position: relative; /* Set position to use as a reference for the name display */
+    }
+
+    .member img {
+      width: 200px; /* Increase the image size */
+      height: 200px; /* Increase the image size */
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      transition: transform 0.2s, filter 0.2s; /* Add transition effects for smooth animation */
+    }
+
+    .member img:hover {
+      transform: scale(1.1); /* Add scaling effect on hover */
+      filter: blur(3px); /* Blur the image when hovering */
+    }
+
+    .details-container {
+      text-align: center;
+      font-weight: bold;
+      position: absolute; /* Position the details below the image */
+      bottom: -110px; /* Set the details to appear below the image */
+      left: 50%; /* Center the details horizontally */
+      transform: translateX(-50%); /* Center the details properly */
+      background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent background for better visibility */
+      color: #fff; /* Set text color to white for better visibility */
+      padding: 5px 10px;
+      border-radius: 5px;
+      width: 200px;
+      opacity: 0; /* Hide the details by default */
+      transition: opacity 0.2s; /* Add transition effect for smooth animation */
+    }
+
+    .member:hover .details-container {
+      opacity: 1; /* Display the details when hovering over the image */
+    }
+
+    .details {
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+
+<div class="task-bar">
+  <!-- Add your task bar content here -->
+</div>
+
+<div class="member-container">
+  <div class="member">
+    <img src="images2/nisith.jpg" alt="Member 1">
+    <div class="details-container">
+      <div class="details">Name: Nisith Induwara</div>
+      <div class="details">Role: Student 1</div>
+      <div class="details">IIT ID: 20221712</div>
+	  <div class="details">UOW ID: w2000719</div>
+    </div>
+  </div>
+  
+  <div class="member">
+    <img src="images2/abdullah.jpg" alt="Member 2">
+    <div class="details-container">
+      <div class="details">Name: Abdullah Aflal </div>
+      <div class="details">Role: Student 2</div>
+      <div class="details">IIT ID: 20222340</div>
+	  <div class="details">UOW ID: w1989032</div>
+    </div>
+  </div>
+  
+  <div class="member">
+    <img src="images2/dilhara.jpg" alt="Member 3">
+    <div class="details-container">
+      <div class="details">Name:Dilhara Manthilina</div>
+      <div class="details">Role: Student 3</div>
+      <div class="details">IIT ID: 20221643</div>
+	  <div class="details">UOW ID: w1999520</div>
+    </div>
+  </div>
+  
+  <div class="member">
+    <img src="images2/dilmi.jpg" alt="Member 4">
+    <div class="details-container">
+      <div class="details">Name: Dilmi Balasooriya</div>
+      <div class="details">Role: Student 4</div>
+	  <div class="details">IIT ID: 20220512</div>
+	  <div class="details">UOW ID: w1953277</div>
+    </div>
+  </div>
+</div>
+
+<div class="page-editor-link">
+    <a href="page editor.html">Page Editor</a>
+  </div>
+
+</body>
+</html>
